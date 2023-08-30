@@ -1,0 +1,7 @@
+1、注意你的SwitchyOmega里面的规则准确按照E:\Pixiv-Nginx-main\hosts来写，我第一次失败就是规则是用正则写的，有些没有换行导致失败。
+
+2、打开E:\Pixiv-Nginx-main\conf\pixiv.conf，查看失效的网站的反代域名
+
+3、对于失效的网站，进入https://sites.ipaddress.com/steampowered.com/ 网站，在DNS Resource Records栏里查看并复制失效的网站的新ip地址，例如steampowered.com.IN 104.127.80.173就复制其ipv4的地址下来，
+
+4、打开E:\Pixiv-Nginx-main\conf\pixiv.conf，将新的ipv4填入失效的反代网站对应位置，重启软件。
