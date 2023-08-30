@@ -1,21 +1,28 @@
 ﻿# Pixiv-Nginx
 
-[![GitHub release](https://img.shields.io/github/release/mashirozx/Pixiv-Nginx.svg?style=flat-square)](https://github.com/mashirozx/Pixiv-Nginx/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/mashirozx/Pixiv-Nginx/latest.svg?style=flat-square)](https://github.com/mashirozx/Pixiv-Nginx/commits/)
+## 使用方法：
 
-使用说明见 <https://2heng.xin/2017/09/19/pixiv/>
+原作者教程[点我]([url](https://2heng.xin/2017/09/19/pixiv/))。
 
-在本页点击下图所示的按键下载以获取最新版。
+1、下载
 
 <img src="https://view.moezx.cc/images/2018/09/17/git.png" width="360" alt="下载方法" />
 
-如遇本页下载速度过慢，可尝试通过镜像下载：
+2、根据E:\Pixiv-Nginx-main\自签证书傻瓜式批处理包 文件夹内的教程创建自己的签名ca；并导入到受信任的根证书机构（[Google Chrome安装证书的方法]([url](https://jingyan.baidu.com/article/c843ea0bc4142a77921e4a79.html))）
 
-|[👉 镜像1](https://git.mashiro.top/mirrors/Pixiv-Nginx) |[👉 镜像2](https://git.moezx.cc/mirrors/Pixiv-Nginx)|
-|---|---|
-|<img src="https://view.moezx.cc/images/2023/03/15/ed9589b16436258a529172fbaa052b60.png" width="360" alt="镜像1下载方法" /> | <img src="https://view.moezx.cc/images/2021/10/23/c5a92987653ea0c6921b1a461401cfec.png" width="360" alt="镜像2下载方法" />|
+3、将E:\Pixiv-Nginx-main\hosts 的内容复制到你的hosts文件内，推荐使用[SwitchHosts]([url](https://github.com/oldj/SwitchHosts))来管理你的hosts。
 
-### LICENSE
+4、使用 可视化工具（这个操作简单）.exe 运行nginx.exe 或将nginx.exe 放进开机启动。
+
+5、不要使用其他系统代理，直接连接你所需的网址即可，推荐使用SwitchyOmega插件。
+
+## 对于失效网站的处理：
+
+>（我将不定时更新以确保能稳定使用）
+
+1、请阅读8.如果网站ip失效了处理 zgh.txt
+
+# LICENSE
 
 <a href="http://www.wtfpl.net/"><img src="https://ngx.moezx.cc/share/svg/brands/WTFPL_badge.svg" width="80" alt="WTFPL" /></a>
 
