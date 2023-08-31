@@ -1,0 +1,35 @@
+; Summary: Proxy Switchy! Exported Rule List
+; Date: 2023/8/31
+; Website: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+#BEGIN
+
+[wildcard]
+!@*://*.pixiv.net/*
+@*://*.pximg.net/*
+@*://*.bing.com/*
+!@*://*.gstatic.com/*
+!@*://*.pixivsketch.net/*
+!@*://*.pixiv.org/*
+!@*://api.booth.pm/*
+!@*://*.wikipedia.org/*
+!@*://store.steampowered.com/*
+!@*://steamcommunity.com/*
+!@*://archiveofourown.org/*
+!@*://exhentai.org/*
+!@*://*.e-hentai.org/*
+!@*://*.nyaa.si/*
+@*://*.kemono.party/*
+@*://*.readhent.ai/*
+@*://*.9hentai.com/*
+@*://*.hentaihand.com/*
+@*://*.nhentai.net/*
+@*://*.anime-sharing.com/*
+@*://*.booru.org/*
+@*://*.patreon.com/*
+@*://*.suda.moe/*
+@*://*.openai.com/*
+
+[regexp]
+
+#END
